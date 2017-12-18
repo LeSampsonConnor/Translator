@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 
 #include "morsecode.h"
+#include "PigLatin.cpp"
 
 #include <QDebug>
 
