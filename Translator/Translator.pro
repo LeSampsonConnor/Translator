@@ -26,12 +26,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    morsecode.cpp
+    morsecode.cpp \
+    piglatin.cpp
 
 HEADERS += \
         mainwindow.h \
     ../Desktop/Translator/Translator/MorseCode.hpp \
-    morsecode.h
+    morsecode.h \
+    piglatin.h
 
 FORMS += \
         mainwindow.ui
