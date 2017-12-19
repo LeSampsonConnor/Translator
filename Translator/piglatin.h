@@ -1,24 +1,17 @@
-//  PigLatinCode.hpp
-//  PigLatin.cpp
-//
-//  Created by Aashna Shah on 12/18/17.
-//  Copyright © 2017 Aashna Shah. All rights reserved.
-//
+#ifndef PIGLATIN_H
+#define PIGLATIN_H
 
-#ifndef PigLatin_h
-#define PigLatin_h
-
-#include<stdio.h>
 #include<QString>
 
 class PigLatin
 {
 public:
     PigLatin();
-    PigLatin(QString textToBeTranslated_) { textToBeTranslated = textToBeTranslated_;};
-    Qstring getTranslation();
+    PigLatin(QString textToTransalted_){ textToTransalted = textToTransalted_;};
+    QString getTranslation();
+
 private:
-    QString textToBeTranslated;
+    QString textToTransalted;
 };
 
-#endif /* PigLatinCode_hpp */
+#endif // PIGLATIN_H
